@@ -4,12 +4,12 @@
   max-width: 700px;
   margin: 2rem auto;
   padding: 1.5rem;
-  border-top: 2px solid #004080;
+  border-top: 2px solid #037427;
   font-family: Arial, sans-serif;
 }
 
 #contacto h2 {
-  color: #004080;
+  color: #037427;
   text-align: center;
   margin-bottom: 0.5rem;
 }
@@ -50,7 +50,7 @@ fieldset label {
 }
 
 button {
-  background-color: #004080;
+  background-color: #037427;
   color: white;
   border: none;
   border-radius: 8px;
@@ -142,3 +142,57 @@ button:hover {
   tbody tr:nth-child(even) {
     background-color: #fafafa;
   }
+
+
+  body{
+      font-family: Arial, Helvetica, sans-serif;
+      margin:20px;
+  }
+  h1{
+    color:#037427;
+    text-align: center;
+  }
+  h2{
+    color:#037427;
+    text-decoration: underline;
+    text-align: center;
+  }
+  h3{
+    color:#3f4341;
+    text-align: center;
+  }
+  p{
+    line-height: 1.6;
+    color: #333;
+    text-align: center;
+  }
+
+  section {
+    border: 0.2pt solid #cedddd;         
+    margin: 4px 2px 8px 2px;     
+    padding: 1.5% 0.8%;                 
+    margin-bottom: 1.2rem;       
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;     
+    -webkit-box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
+    -moz-box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
+    box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60); 
+    
+  }
+
+  nav > ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  section > form {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+  }
+  
