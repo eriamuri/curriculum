@@ -1,4 +1,4 @@
-/* Styles generado con IA para el formulario */
+/* Styles ayudado con IA para el formulario */
 
 #contacto {
   max-width: 700px;
@@ -65,10 +65,10 @@ button:hover {
   background-color: #002e5b;
 }
 
-/* Fin styles generado con IA para el formulario */
+/* Fin styles ayudado con IA para el formulario */
 
 
-/* Styles generado con IA para lo multimedia */
+/* Styles ayudado con IA para lo multimedia */
 
 /* Imagen de portada (antes del nombre) */
 .imagen-portada {
@@ -119,4 +119,26 @@ button:hover {
   height: 250px;
 }
 
-/* Fin styles generado con IA para lo multimedia */
+/* Fin styles ayudado con IA para lo multimedia */
+
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-family: "Poppins", sans-serif;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 0.5rem 0.75rem;
+  }
+
+  thead th {
+    background-color: #f0f0f0;
+    font-weight: 600;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #fafafa;
+  }
