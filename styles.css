@@ -1,0 +1,122 @@
+/* Styles generado con IA para el formulario */
+
+#contacto {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-top: 2px solid #004080;
+  font-family: Arial, sans-serif;
+}
+
+#contacto h2 {
+  color: #004080;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+#contacto p {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+label, legend {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: #222;
+}
+
+input[type="text"], select, textarea {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0.75rem;
+}
+
+fieldset label {
+  margin-right: 1rem;
+  font-weight: 400;
+}
+
+button {
+  background-color: #004080;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  align-self: center;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background-color: #002e5b;
+}
+
+/* Fin styles generado con IA para el formulario */
+
+
+/* Styles generado con IA para lo multimedia */
+
+/* Imagen de portada (antes del nombre) */
+.imagen-portada {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 3px solid #003366;
+  border-radius: 0 0 10px 10px;
+  display: block;
+}
+
+/* Imagen personal debajo del header */
+.imagen-personal {
+  display: block;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin: 1rem auto;
+  object-fit: cover;
+  border: 3px solid #003366;
+}
+
+/* Video responsivo */
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.video-container iframe {
+  width: 90%;
+  max-width: 560px;
+  height: 315px;
+  border-radius: 10px;
+}
+
+/* Mapa */
+.mapa {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 2rem 0;
+}
+
+.mapa iframe {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  height: 250px;
+}
+
+/* Fin styles generado con IA para lo multimedia */

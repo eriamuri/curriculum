@@ -14,12 +14,19 @@
     </head>
     <body>
         <header>
+
+            <!-- imagen random de picsum -->
+            <img src="https://picsum.photos/seed/picsum/200/300" alt="imagen de portada" class="imagen-portada">
+            
             <h1>
                 Erick Adrian Murillo Murillo
             </h1>
             <p> 
                 Estudiante en la carrera de Ingenieria en Computación | eriamuri@espol.edu.ec | 0989868320
             </p>
+
+            <img src="assets/img/fotomia.jpg" alt="Foto de Erick Murillo" class="imagen-personal">
+
         </header>
         <nav>
             <ul>
@@ -40,6 +47,18 @@
                     Estudiante de Ciencias Computacionales con conocimientos en programación (Python, Java, C, MySQL) y manejo de herramientas ofimáticas. 
                     Me destaco por mi proactividad, adaptabilidad y pensamiento creativo, orientado a ofrecer soluciones eficientes y de calidad tanto en equipo como de manera individual.
                 </p>
+
+                <!-- Video de YouTube insertado con IA -->
+                <div class="video-container">
+                    <iframe width="560" height="315" 
+                        src="https://www.youtube.com/embed/TSXIARsOiIQ" 
+                        title="Video relacionado con el currículum" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                    </iframe>
+                </div>
+
             </section>
 
             <section id="experiencia">
@@ -58,6 +77,20 @@
                     <li><a> Comunicarse con el personal de cocina y de bar para garantizar un servicio eficiente. </a></li>
                 </ul>
 
+                <!-- Mapa agregado con IA --> 
+                <div class="mapa">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3210.470386045342!2d-112.1308318!3d35.9687747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87331bf02d762a89%3A0xfe5ab4020c69355f!2sTusayan%2C%20Arizona%2C%20EE.%20UU.!5e0!3m2!1ses!2sec!4v1739919820201!5m2!1ses!2sec"
+                        width="400"
+                        height="300"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+
 
                 <h3>
                     Ayudante de Mesero/Food Runner |The Grand Hotel at Grand Canyon |EEUU
@@ -72,6 +105,20 @@
                     <li><a> Limpiar los platos y vasos sucios de las mesas rápidamente. </a></li>
                     <li><a> Ayudar a llevar la comida de la cocina a la mesa correcta. </a></li>
                 </ul>
+                
+                <!-- Mapa agregado con IA --> 
+                <div class="mapa">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3210.470386045342!2d-112.1308318!3d35.9687747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87331bf02d762a89%3A0xfe5ab4020c69355f!2sTusayan%2C%20Arizona%2C%20EE.%20UU.!5e0!3m2!1ses!2sec!4v1739919820201!5m2!1ses!2sec"
+                        width="400"
+                        height="300"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
 
 
                 <h3>
@@ -89,6 +136,20 @@
                     <li><a> Surtir los estantes, neveras y exhibidores con productos. </a></li>
                     <li><a> Responder a preguntas sobre el combustible, productos de la tienda o promociones. </a></li>
                 </ul>
+
+               <!-- Mapa agregado con IA --> 
+                <div class="mapa">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3210.470386045342!2d-112.1308318!3d35.9687747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87331bf02d762a89%3A0xfe5ab4020c69355f!2sTusayan%2C%20Arizona%2C%20EE.%20UU.!5e0!3m2!1ses!2sec!4v1739919820201!5m2!1ses!2sec"
+                        width="400"
+                        height="300"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
             </section>
 
             <section id="educacion">
@@ -172,6 +233,63 @@
                 </ul>
                 <a href="https://github.com/eriamuri/TallerPatrones"> Link </a>
             </section>
+
+
+        <!-- seccion hecha con IA -->
+            <section id="contacto">
+                <h2>Formulario de Contacto</h2>
+                <p>Si deseas comunicarte conmigo, dejar un mensaje o realizar una propuesta laboral, completa el siguiente formulario:</p>
+
+                <form action="https://formspree.io/f/tu_endpoint" method="POST">
+        
+                    <!-- Campo de texto -->
+                    <div class="form-row">       
+                        <label for="nombre">Nombre completo</label>
+                        <input id="nombre" name="nombre" type="text" placeholder="Ej. Juan Pérez" required>
+                    </div>
+
+                    <!-- Lista desplegable -->
+                    <div class="form-row">
+                        <label for="motivo">Motivo del contacto</label>
+                        <select id="motivo" name="motivo" required>
+                            <option value="" disabled selected>Selecciona una opción</option>
+                            <option value="oferta">Oferta laboral</option>
+                            <option value="colaboracion">Colaboración o proyecto</option>
+                            <option value="consulta">Consulta general</option>
+                        </select>        
+                    </div>
+
+                    <!-- Selección única -->
+                    <fieldset class="form-row">
+                        <legend>Disponibilidad para reunión</legend>
+                        <label><input type="radio" name="disponibilidad" value="mañana" required> Mañana</label>
+                        <label><input type="radio" name="disponibilidad" value="tarde"> Tarde</label>
+                        <label><input type="radio" name="disponibilidad" value="fin_de_semana"> Fin de semana</label>
+                    </fieldset>
+
+                    <!-- Selección múltiple -->
+                    <fieldset class="form-row">
+                        <legend>Áreas de interés (puedes seleccionar varias)</legend>
+                        <label><input type="checkbox" name="area[]" value="desarrollo_web"> Desarrollo Web</label>
+                        <label><input type="checkbox" name="area[]" value="bases_datos"> Bases de Datos</label>
+                        <label><input type="checkbox" name="area[]" value="programacion"> Programación</label>
+                    </fieldset>
+
+                    <!-- Área de texto -->
+                    <div class="form-row">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                    </div>
+
+                    <!-- Botón -->
+                    <div class="form-row">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </section>
+
+        <!-- Fin seccion hecha con IA -->
+
 
 
         </main>
